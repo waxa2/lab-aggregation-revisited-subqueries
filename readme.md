@@ -2,7 +2,8 @@
 
 # Lab | Aggregation Revisited - Sub queries
 
-In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/) database of movie rentals. You have been using this database for a couple labs already, but if you need to get the data again, refer to the official [installation link](https://dev.mysql.com/doc/sakila/en/sakila-installation.html).
+In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/) database of movie rentals. You have been using this database for a couple labs already, 
+but if you need to get the data again, refer to the official [installation link](https://dev.mysql.com/doc/sakila/en/sakila-installation.html).
 
 ### Instructions
 
@@ -16,4 +17,6 @@ Write the SQL queries to answer the following questions:
     - Write the query using sub queries with multiple WHERE clause and `IN` condition
     - Verify if the above two queries produce the same results or not
 
-  - Use the case statement to create a new column classifying existing columns as either or high value transactions based on the amount of payment. If the amount is between 0 and 2, label should be `low` and if the amount is between 2 and 4, the label should be `medium`, and if it is more than 4, then it should be `high`.
+  - Use the case statement to create a new column classifying existing columns as either or high value transactions based on the amount of payment. 
+If the amount is between 0 and 2, label should be `low` and if the amount is between 2 and 4, the label should be `medium`, and if it is more than 4, then it should be 
+`high`.
